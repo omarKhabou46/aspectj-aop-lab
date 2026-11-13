@@ -25,4 +25,12 @@ public class Compte {
     public void setBalance(double balance) {
         this.balance = balance;
     }
+
+    @Override
+    public String toString() {
+        return "Compte{" +
+                "code=" + code +
+                ", balance=" + balance +
+                '}';
+    }
 }
