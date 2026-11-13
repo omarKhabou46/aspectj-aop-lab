@@ -2,110 +2,254 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2026-11-13T17:28:14.353187268Z</date>
-  <millis>1794590894353</millis>
-  <nanos>187268</nanos>
+  <date>2026-11-13T17:35:30.215734886Z</date>
+  <millis>1794591330215</millis>
+  <nanos>734886</nanos>
   <sequence>0</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
-  <method>before</method>
+  <method>around</method>
   <thread>1</thread>
   <message>before void com.enset.metier.MetierImpl.addAccount(Long, Compte)</message>
 </record>
 <record>
-  <date>2026-11-13T17:28:14.359383681Z</date>
-  <millis>1794590894359</millis>
-  <nanos>383681</nanos>
+  <date>2026-11-13T17:35:30.217949038Z</date>
+  <millis>1794591330217</millis>
+  <nanos>949038</nanos>
   <sequence>1</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
-  <method>after</method>
+  <method>around</method>
   <thread>1</thread>
   <message>after void com.enset.metier.MetierImpl.addAccount(Long, Compte)</message>
 </record>
 <record>
-  <date>2026-11-13T17:28:14.359669572Z</date>
-  <millis>1794590894359</millis>
-  <nanos>669572</nanos>
+  <date>2026-11-13T17:35:30.218150878Z</date>
+  <millis>1794591330218</millis>
+  <nanos>150878</nanos>
   <sequence>2</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
-  <method>after</method>
+  <method>around</method>
   <thread>1</thread>
-  <message>duree d'execution : 8</message>
+  <message>duree d'execution : 4</message>
 </record>
 <record>
-  <date>2026-11-13T17:28:18.222978407Z</date>
-  <millis>1794590898222</millis>
-  <nanos>978407</nanos>
+  <date>2026-11-13T17:35:33.006397819Z</date>
+  <millis>1794591333006</millis>
+  <nanos>397819</nanos>
   <sequence>3</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
-  <method>before</method>
+  <method>around</method>
   <thread>1</thread>
   <message>before void com.enset.metier.MetierImpl.verser(Long, double)</message>
 </record>
 <record>
-  <date>2026-11-13T17:28:18.223548503Z</date>
-  <millis>1794590898223</millis>
-  <nanos>548503</nanos>
+  <date>2026-11-13T17:35:33.006913159Z</date>
+  <millis>1794591333006</millis>
+  <nanos>913159</nanos>
   <sequence>4</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
-  <method>after</method>
+  <method>around</method>
   <thread>1</thread>
   <message>after void com.enset.metier.MetierImpl.verser(Long, double)</message>
 </record>
 <record>
-  <date>2026-11-13T17:28:18.223963988Z</date>
-  <millis>1794590898223</millis>
-  <nanos>963988</nanos>
+  <date>2026-11-13T17:35:33.007263121Z</date>
+  <millis>1794591333007</millis>
+  <nanos>263121</nanos>
   <sequence>5</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
-  <method>after</method>
+  <method>around</method>
   <thread>1</thread>
   <message>duree d'execution : 1</message>
 </record>
 <record>
-  <date>2026-11-13T17:28:18.224383089Z</date>
-  <millis>1794590898224</millis>
-  <nanos>383089</nanos>
+  <date>2026-11-13T17:35:33.007688088Z</date>
+  <millis>1794591333007</millis>
+  <nanos>688088</nanos>
   <sequence>6</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
-  <method>before</method>
+  <method>around</method>
   <thread>1</thread>
   <message>before Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
 </record>
 <record>
-  <date>2026-11-13T17:28:18.224720201Z</date>
-  <millis>1794590898224</millis>
-  <nanos>720201</nanos>
+  <date>2026-11-13T17:35:33.008000036Z</date>
+  <millis>1794591333008</millis>
+  <nanos>36</nanos>
   <sequence>7</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
-  <method>after</method>
+  <method>around</method>
   <thread>1</thread>
   <message>after Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
 </record>
 <record>
-  <date>2026-11-13T17:28:18.225547808Z</date>
-  <millis>1794590898225</millis>
-  <nanos>547808</nanos>
+  <date>2026-11-13T17:35:33.008666930Z</date>
+  <millis>1794591333008</millis>
+  <nanos>666930</nanos>
   <sequence>8</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
-  <method>after</method>
+  <method>around</method>
+  <thread>1</thread>
+  <message>duree d'execution : 1</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:37.885690068Z</date>
+  <millis>1794591337885</millis>
+  <nanos>690068</nanos>
+  <sequence>9</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>before void com.enset.metier.MetierImpl.retirer(Long, double)</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:37.886428940Z</date>
+  <millis>1794591337886</millis>
+  <nanos>428940</nanos>
+  <sequence>10</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>after void com.enset.metier.MetierImpl.retirer(Long, double)</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:37.886949582Z</date>
+  <millis>1794591337886</millis>
+  <nanos>949582</nanos>
+  <sequence>11</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>duree d'execution : 1</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:37.887399856Z</date>
+  <millis>1794591337887</millis>
+  <nanos>399856</nanos>
+  <sequence>12</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>before Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:37.887943706Z</date>
+  <millis>1794591337887</millis>
+  <nanos>943706</nanos>
+  <sequence>13</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>after Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:37.888272128Z</date>
+  <millis>1794591337888</millis>
+  <nanos>272128</nanos>
+  <sequence>14</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>duree d'execution : 1</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:42.281564459Z</date>
+  <millis>1794591342281</millis>
+  <nanos>564459</nanos>
+  <sequence>15</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>before void com.enset.metier.MetierImpl.retirer(Long, double)</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:42.282220590Z</date>
+  <millis>1794591342282</millis>
+  <nanos>220590</nanos>
+  <sequence>16</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>after void com.enset.metier.MetierImpl.retirer(Long, double)</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:42.282595054Z</date>
+  <millis>1794591342282</millis>
+  <nanos>595054</nanos>
+  <sequence>17</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>duree d'execution : 1</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:42.282931174Z</date>
+  <millis>1794591342282</millis>
+  <nanos>931174</nanos>
+  <sequence>18</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>before Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:42.283208301Z</date>
+  <millis>1794591342283</millis>
+  <nanos>208301</nanos>
+  <sequence>19</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
+  <thread>1</thread>
+  <message>after Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-11-13T17:35:42.283504167Z</date>
+  <millis>1794591342283</millis>
+  <nanos>504167</nanos>
+  <sequence>20</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>around</method>
   <thread>1</thread>
   <message>duree d'execution : 1</message>
 </record>
