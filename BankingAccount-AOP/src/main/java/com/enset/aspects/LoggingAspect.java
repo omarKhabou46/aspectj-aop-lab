@@ -10,6 +10,7 @@ import java.util.logging.Logger;
 
 @Aspect
 public class LoggingAspect {
+    private final Logger logger = Logger.getLogger(LoggingAspect.class.getName());
     private long t1, t2;
 
     @Pointcut("execution(* com.enset.metier.MetierImpl.*(..))")
@@ -18,14 +19,14 @@ public class LoggingAspect {
     @Before("pc1()")
     public void before(JoinPoint joinPoint) {
         t1 = System.currentTimeMillis();
-        System.out.println("before " + joinPoint.getSignature());
+        logger.info("before " + joinPoint.getSignature());
     }
 
     @After("pc1()")
     public void after(JoinPoint joinPoint) {
-        System.out.println("after " + joinPoint.getSignature());
+        logger.info("after " + joinPoint.getSignature());
         t2 = System.currentTimeMillis();
-        System.out.println("duree d'execution : " + (t2 - t1));
+        logger.info("duree d'execution : " + (t2 - t1));
     }
 
 }
