@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-13T17:28:14.353187268Z</date>
+  <millis>1794590894353</millis>
+  <nanos>187268</nanos>
+  <sequence>0</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>before</method>
+  <thread>1</thread>
+  <message>before void com.enset.metier.MetierImpl.addAccount(Long, Compte)</message>
+</record>
+<record>
+  <date>2026-11-13T17:28:14.359383681Z</date>
+  <millis>1794590894359</millis>
+  <nanos>383681</nanos>
+  <sequence>1</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>after</method>
+  <thread>1</thread>
+  <message>after void com.enset.metier.MetierImpl.addAccount(Long, Compte)</message>
+</record>
+<record>
+  <date>2026-11-13T17:28:14.359669572Z</date>
+  <millis>1794590894359</millis>
+  <nanos>669572</nanos>
+  <sequence>2</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>after</method>
+  <thread>1</thread>
+  <message>duree d'execution : 8</message>
+</record>
+<record>
+  <date>2026-11-13T17:28:18.222978407Z</date>
+  <millis>1794590898222</millis>
+  <nanos>978407</nanos>
+  <sequence>3</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>before</method>
+  <thread>1</thread>
+  <message>before void com.enset.metier.MetierImpl.verser(Long, double)</message>
+</record>
+<record>
+  <date>2026-11-13T17:28:18.223548503Z</date>
+  <millis>1794590898223</millis>
+  <nanos>548503</nanos>
+  <sequence>4</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>after</method>
+  <thread>1</thread>
+  <message>after void com.enset.metier.MetierImpl.verser(Long, double)</message>
+</record>
+<record>
+  <date>2026-11-13T17:28:18.223963988Z</date>
+  <millis>1794590898223</millis>
+  <nanos>963988</nanos>
+  <sequence>5</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>after</method>
+  <thread>1</thread>
+  <message>duree d'execution : 1</message>
+</record>
+<record>
+  <date>2026-11-13T17:28:18.224383089Z</date>
+  <millis>1794590898224</millis>
+  <nanos>383089</nanos>
+  <sequence>6</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>before</method>
+  <thread>1</thread>
+  <message>before Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-11-13T17:28:18.224720201Z</date>
+  <millis>1794590898224</millis>
+  <nanos>720201</nanos>
+  <sequence>7</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>after</method>
+  <thread>1</thread>
+  <message>after Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
+</record>
+<record>
+  <date>2026-11-13T17:28:18.225547808Z</date>
+  <millis>1794590898225</millis>
+  <nanos>547808</nanos>
+  <sequence>8</sequence>
+  <logger>com.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>com.enset.aspects.LoggingAspect</class>
+  <method>after</method>
+  <thread>1</thread>
+  <message>duree d'execution : 1</message>
+</record>
+</log>
