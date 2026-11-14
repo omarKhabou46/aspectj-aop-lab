@@ -1,0 +1,23 @@
+package com.enset;
+
+import com.enset.metier.IMetier;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+@ComponentScan
+public class Main {
+    public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(Main.class);
+        IMetier metier = context.getBean(IMetier.class);
+
+        System.out.println("*****************************");
+        System.out.println(metier.getClass().getName());
+        System.out.println("*****************************");
+
+        metier.process();
+        System.out.println(metier.compute());
+    }
+}
