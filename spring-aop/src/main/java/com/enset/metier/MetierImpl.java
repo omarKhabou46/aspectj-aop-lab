@@ -1,5 +1,6 @@
 package com.enset.metier;
 
+import com.enset.annotations.Log;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +13,7 @@ public class MetierImpl implements IMetier {
         System.out.println("Business Process ....");
     }
 
+    @Log
     @Override
     public double compute() {
         double data = 72.5;
