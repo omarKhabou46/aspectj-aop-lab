@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2026-11-14T11:07:17.561405181Z</date>
-  <millis>1794654437561</millis>
-  <nanos>405181</nanos>
+  <date>2026-11-14T11:38:25.857006455Z</date>
+  <millis>1794656305857</millis>
+  <nanos>6455</nanos>
   <sequence>0</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>before void com.enset.metier.MetierImpl.addAccount(Long, Compte)</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:17.568734725Z</date>
-  <millis>1794654437568</millis>
-  <nanos>734725</nanos>
+  <date>2026-11-14T11:38:25.863994663Z</date>
+  <millis>1794656305863</millis>
+  <nanos>994663</nanos>
   <sequence>1</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>after void com.enset.metier.MetierImpl.addAccount(Long, Compte)</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:17.569410078Z</date>
-  <millis>1794654437569</millis>
-  <nanos>410078</nanos>
+  <date>2026-11-14T11:38:25.864612973Z</date>
+  <millis>1794656305864</millis>
+  <nanos>612973</nanos>
   <sequence>2</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -38,33 +38,33 @@
   <message>duree d'execution : 11</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:20.647665346Z</date>
-  <millis>1794654440647</millis>
-  <nanos>665346</nanos>
+  <date>2026-11-14T11:38:30.334152822Z</date>
+  <millis>1794656310334</millis>
+  <nanos>152822</nanos>
   <sequence>3</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
   <method>around</method>
   <thread>1</thread>
-  <message>before Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
+  <message>before void com.enset.metier.MetierImpl.verser(Long, double)</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:20.648281983Z</date>
-  <millis>1794654440648</millis>
-  <nanos>281983</nanos>
+  <date>2026-11-14T11:38:30.334770344Z</date>
+  <millis>1794656310334</millis>
+  <nanos>770344</nanos>
   <sequence>4</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
   <method>around</method>
   <thread>1</thread>
-  <message>after Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
+  <message>after void com.enset.metier.MetierImpl.verser(Long, double)</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:20.648877406Z</date>
-  <millis>1794654440648</millis>
-  <nanos>877406</nanos>
+  <date>2026-11-14T11:38:30.335155934Z</date>
+  <millis>1794656310335</millis>
+  <nanos>155934</nanos>
   <sequence>5</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -74,33 +74,33 @@
   <message>duree d'execution : 1</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:20.649473291Z</date>
-  <millis>1794654440649</millis>
-  <nanos>473291</nanos>
+  <date>2026-11-14T11:38:30.335583665Z</date>
+  <millis>1794656310335</millis>
+  <nanos>583665</nanos>
   <sequence>6</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
   <method>around</method>
   <thread>1</thread>
-  <message>before void com.enset.metier.MetierImpl.retirer(Long, double)</message>
+  <message>before Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:20.650104290Z</date>
-  <millis>1794654440650</millis>
-  <nanos>104290</nanos>
+  <date>2026-11-14T11:38:30.335948074Z</date>
+  <millis>1794656310335</millis>
+  <nanos>948074</nanos>
   <sequence>7</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
   <method>around</method>
   <thread>1</thread>
-  <message>after void com.enset.metier.MetierImpl.retirer(Long, double)</message>
+  <message>after Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:20.650597202Z</date>
-  <millis>1794654440650</millis>
-  <nanos>597202</nanos>
+  <date>2026-11-14T11:38:30.336301377Z</date>
+  <millis>1794656310336</millis>
+  <nanos>301377</nanos>
   <sequence>8</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -110,9 +110,9 @@
   <message>duree d'execution : 1</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:20.651334467Z</date>
-  <millis>1794654440651</millis>
-  <nanos>334467</nanos>
+  <date>2026-11-14T11:38:34.571716791Z</date>
+  <millis>1794656314571</millis>
+  <nanos>716791</nanos>
   <sequence>9</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -122,9 +122,9 @@
   <message>before Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:20.651917735Z</date>
-  <millis>1794654440651</millis>
-  <nanos>917735</nanos>
+  <date>2026-11-14T11:38:34.572364036Z</date>
+  <millis>1794656314572</millis>
+  <nanos>364036</nanos>
   <sequence>10</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -134,9 +134,9 @@
   <message>after Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:20.652359446Z</date>
-  <millis>1794654440652</millis>
-  <nanos>359446</nanos>
+  <date>2026-11-14T11:38:34.572834559Z</date>
+  <millis>1794656314572</millis>
+  <nanos>834559</nanos>
   <sequence>11</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -146,9 +146,9 @@
   <message>duree d'execution : 1</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:26.249814663Z</date>
-  <millis>1794654446249</millis>
-  <nanos>814663</nanos>
+  <date>2026-11-14T11:38:34.573352528Z</date>
+  <millis>1794656314573</millis>
+  <nanos>352528</nanos>
   <sequence>12</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -158,9 +158,9 @@
   <message>before Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:26.250483622Z</date>
-  <millis>1794654446250</millis>
-  <nanos>483622</nanos>
+  <date>2026-11-14T11:38:34.573751492Z</date>
+  <millis>1794656314573</millis>
+  <nanos>751492</nanos>
   <sequence>13</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -170,46 +170,10 @@
   <message>after Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
 </record>
 <record>
-  <date>2026-11-14T11:07:26.251057379Z</date>
-  <millis>1794654446251</millis>
-  <nanos>57379</nanos>
+  <date>2026-11-14T11:38:34.574138905Z</date>
+  <millis>1794656314574</millis>
+  <nanos>138905</nanos>
   <sequence>14</sequence>
-  <logger>com.enset.aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>com.enset.aspects.LoggingAspect</class>
-  <method>around</method>
-  <thread>1</thread>
-  <message>duree d'execution : 2</message>
-</record>
-<record>
-  <date>2026-11-14T11:07:26.251768581Z</date>
-  <millis>1794654446251</millis>
-  <nanos>768581</nanos>
-  <sequence>15</sequence>
-  <logger>com.enset.aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>com.enset.aspects.LoggingAspect</class>
-  <method>around</method>
-  <thread>1</thread>
-  <message>before Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
-</record>
-<record>
-  <date>2026-11-14T11:07:26.252218455Z</date>
-  <millis>1794654446252</millis>
-  <nanos>218455</nanos>
-  <sequence>16</sequence>
-  <logger>com.enset.aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>com.enset.aspects.LoggingAspect</class>
-  <method>around</method>
-  <thread>1</thread>
-  <message>after Compte com.enset.metier.MetierImpl.getCompte(Long)</message>
-</record>
-<record>
-  <date>2026-11-14T11:07:26.252662842Z</date>
-  <millis>1794654446252</millis>
-  <nanos>662842</nanos>
-  <sequence>17</sequence>
   <logger>com.enset.aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>com.enset.aspects.LoggingAspect</class>
