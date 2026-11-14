@@ -1,6 +1,7 @@
 package com.enset;
 
 import com.enset.metier.IMetier;
+import com.enset.metier.SecurityContext;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,6 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan
 public class Main {
     public static void main(String[] args) {
+        SecurityContext.authenticate("root", "password", new String[] {"USER"});
         ApplicationContext context = new AnnotationConfigApplicationContext(Main.class);
         IMetier metier = context.getBean(IMetier.class);
 
@@ -17,7 +19,12 @@ public class Main {
         System.out.println(metier.getClass().getName());
         System.out.println("*****************************");
 
-        metier.process();
-        System.out.println(metier.compute());
+        try {
+            metier.process();
+            System.out.println(metier.compute());
+        }catch (RuntimeException e)  {
+            System.out.println(e.getMessage());
+        }
+
     }
 }
